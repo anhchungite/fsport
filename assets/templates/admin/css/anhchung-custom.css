@@ -1,0 +1,53 @@
+@CHARSET "utf8";
+.img-thumbnail {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    display: inline-block;
+    height: auto;
+    line-height: 1.42857;
+    max-width: 100%;
+    padding: 4px;
+    transition: all 0.2s ease-in-out 0s;
+}
+.txt-ct {
+            text-align: center !important
+        }
+        
+.txt-l {
+    text-align: left !important
+}
+
+.txt-r {
+    text-align: right !important
+}
+.table tbody> tr> td {
+    vertical-align: middle;
+}
+
+.nav-tabs {
+    margin-bottom: 25px;
+}
+.nav-tabs > li > a {
+    color: #666;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    font-weight: bold;
+    color: #333;
+}
+label .required {
+    font-size: 16px;
+    color: #00a0df;
+}
+.bootstrap-tagsinput{
+	width: 100%;
+}
+.form-horizontal .form-group:last-child {
+    border-bottom: 1px solid #eff2f7 !important;
+    padding-bottom: 15px !important;
+    margin-bottom: 15px !important;
+}
+.dropdown-menu{
+	max-height: 250px;
+}
+thead tr td {font-weight: bold}

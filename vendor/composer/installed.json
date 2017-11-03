@@ -1,0 +1,297 @@
+[
+    {
+        "name": "mikey179/vfsStream",
+        "version": "v1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mikey179/vfsStream.git",
+            "reference": "fc0fe8f4d0b527254a2dc45f0c265567c881d07e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mikey179/vfsStream/zipball/fc0fe8f4d0b527254a2dc45f0c265567c881d07e",
+            "reference": "fc0fe8f4d0b527254a2dc45f0c265567c881d07e",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2012-08-25T12:49:29+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "org\\bovigo\\vfs": "src/main/php"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD"
+        ],
+        "homepage": "http://vfs.bovigo.org/"
+    },
+    {
+        "name": "zf1/zend-exception",
+        "version": "1.12.20",
+        "version_normalized": "1.12.20.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/zf1/zend-exception.git",
+            "reference": "ca30959d3e2f522f481a3d1459386acf1aa4ca74"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/zf1/zend-exception/zipball/ca30959d3e2f522f481a3d1459386acf1aa4ca74",
+            "reference": "ca30959d3e2f522f481a3d1459386acf1aa4ca74",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.11"
+        },
+        "time": "2015-04-30T11:10:20+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Zend_Exception": "library/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "description": "Zend Framework 1 Exception package",
+        "homepage": "http://framework.zend.com/",
+        "keywords": [
+            "ZF1",
+            "exception",
+            "framework",
+            "zend"
+        ]
+    },
+    {
+        "name": "zf1/zend-xml",
+        "version": "1.12.20",
+        "version_normalized": "1.12.20.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/zf1/zend-xml.git",
+            "reference": "d4f99144a0cf0c5e383f3fb765cdd7dfde7caab4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/zf1/zend-xml/zipball/d4f99144a0cf0c5e383f3fb765cdd7dfde7caab4",
+            "reference": "d4f99144a0cf0c5e383f3fb765cdd7dfde7caab4",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.11",
+            "zf1/zend-exception": "self.version"
+        },
+        "time": "2017-07-11T23:59:06+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Zend_Xml": "library/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "description": "Zend Framework 1 Xml package",
+        "homepage": "http://framework.zend.com/",
+        "keywords": [
+            "ZF1",
+            "framework",
+            "xml",
+            "zend"
+        ]
+    },
+    {
+        "name": "zf1/zend-search",
+        "version": "1.12.20",
+        "version_normalized": "1.12.20.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/zf1/zend-search.git",
+            "reference": "c966e380667e02f83bf0806132e9cf392831930b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/zf1/zend-search/zipball/c966e380667e02f83bf0806132e9cf392831930b",
+            "reference": "c966e380667e02f83bf0806132e9cf392831930b",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.11",
+            "zf1/zend-exception": "self.version"
+        },
+        "time": "2015-04-30T11:08:53+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Zend_Search": "library/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "description": "Zend Framework 1 Search package",
+        "homepage": "http://framework.zend.com/",
+        "keywords": [
+            "ZF1",
+            "framework",
+            "search",
+            "zend"
+        ]
+    },
+    {
+        "name": "zf1/zend-search-lucene",
+        "version": "1.12.20",
+        "version_normalized": "1.12.20.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/zf1/zend-search-lucene.git",
+            "reference": "8a07584308d86c86fdd9f743d574cc2cbfffc7ac"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/zf1/zend-search-lucene/zipball/8a07584308d86c86fdd9f743d574cc2cbfffc7ac",
+            "reference": "8a07584308d86c86fdd9f743d574cc2cbfffc7ac",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.11",
+            "zf1/zend-exception": "self.version",
+            "zf1/zend-search": "self.version",
+            "zf1/zend-xml": "self.version"
+        },
+        "time": "2017-07-12T00:31:21+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Zend_Search_Lucene": "library/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "description": "Zend Framework 1 Search Lucene package",
+        "homepage": "http://framework.zend.com/",
+        "keywords": [
+            "ZF1",
+            "framework",
+            "lucene",
+            "search",
+            "zend"
+        ]
+    },
+    {
+        "name": "kartik-v/bootstrap-fileinput",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/kartik-v/bootstrap-fileinput.git",
+            "reference": "5ee4b0b05d73fb6d3011117882c6f4b9cd94c4ec"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/kartik-v/bootstrap-fileinput/zipball/5ee4b0b05d73fb6d3011117882c6f4b9cd94c4ec",
+            "reference": "5ee4b0b05d73fb6d3011117882c6f4b9cd94c4ec",
+            "shasum": ""
+        },
+        "time": "2017-08-27T08:34:56+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "4.4.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "kartik\\plugins\\fileinput\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Kartik Visweswaran",
+                "email": "kartikv2@gmail.com",
+                "homepage": "http://www.krajee.com/"
+            }
+        ],
+        "description": "An enhanced HTML 5 file input for Bootstrap 3.x with features for file preview for many file types, multiple selection, ajax uploads, and more.",
+        "homepage": "https://github.com/kartik-v/bootstrap-fileinput",
+        "keywords": [
+            "ajax",
+            "bootstrap",
+            "delete",
+            "file",
+            "image",
+            "input",
+            "jquery",
+            "multiple",
+            "preview",
+            "progress",
+            "upload"
+        ]
+    },
+    {
+        "name": "kartik-v/bootstrap-star-rating",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/kartik-v/bootstrap-star-rating.git",
+            "reference": "599c10e2456bc2215da7c6337d6b1c65892bff72"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/kartik-v/bootstrap-star-rating/zipball/599c10e2456bc2215da7c6337d6b1c65892bff72",
+            "reference": "599c10e2456bc2215da7c6337d6b1c65892bff72",
+            "shasum": ""
+        },
+        "time": "2017-08-27T08:23:59+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "4.0.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Kartik Visweswaran",
+                "email": "kartikv2@gmail.com",
+                "homepage": "http://www.krajee.com/"
+            }
+        ],
+        "description": "A simple yet powerful JQuery star rating plugin for Bootstrap.",
+        "homepage": "https://github.com/kartik-v/bootstrap-star-rating",
+        "keywords": [
+            "Rating",
+            "awesome",
+            "bootstrap",
+            "font",
+            "glyphicon",
+            "star",
+            "svg"
+        ]
+    }
+]
